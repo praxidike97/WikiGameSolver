@@ -1,5 +1,7 @@
 # WikiGameSolver
 
+Repo to find the shortest path between two Wikipedia articles (and cheat at [The Wiki Game](https://www.thewikigame.com/group))
+
 ## Installation
 The most popular Python graph library, ```networkx```, is not efficient enough to perform this task, therefore ```graph-tool``` is used (see [https://graph-tool.skewed.de/](https://graph-tool.skewed.de/)). According to the documentation it should be installable via ```apt```, but somehow this does not work/is not available. Other option: install ```homebrew``` and install it there (see [https://git.skewed.de/count0/graph-tool/-/wikis/installation-instructions#installation-via-package-managers](https://git.skewed.de/count0/graph-tool/-/wikis/installation-instructions#installation-via-package-managers)).
 
